@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/language-learning"]
+	path = wp-content/plugins/language-learning
+	url = https://github.com/marissa-makes/language-learning

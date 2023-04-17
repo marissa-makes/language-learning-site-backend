@@ -1,0 +1,27 @@
+{
+    "name": "marissa-makes/language-learning-site-backend",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "wpackagist-plugin/duplicate-post": "^4.5",
+        "wpackagist-plugin/disable-emails": "^1.8"
+    },
+    "extra": {
+        "installer-paths": {
+            "plugins/{$name}": [
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

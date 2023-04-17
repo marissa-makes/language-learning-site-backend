@@ -5,12 +5,19 @@
         {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/wpengine/wp-graphql-content-blocks.git"
         }
     ],
     "require": {
         "composer/installers": "~1.0",
         "wpackagist-plugin/duplicate-post": "^4.5",
-        "wpackagist-plugin/disable-emails": "^1.8"
+        "wpackagist-plugin/disable-emails": "^1.8",
+        "wpackagist-plugin/faustwp": "^0.8",
+        "wpackagist-plugin/wp-graphql": "^1.14",
+        "wpengine/wp-graphql-content-blocks": "0.2.0"
     },
     "extra": {
         "installer-paths": {

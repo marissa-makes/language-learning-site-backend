@@ -32,6 +32,7 @@ node_modules/
 
 # track these files, if they exist
 !.gitignore
+!.gitmodules
 !.editorconfig
 !.phpcs.xml.dist
 !README.md
